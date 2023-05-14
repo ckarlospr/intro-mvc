@@ -9,11 +9,11 @@
             </tr>
         </thead>
         <tbody>
-        @foreach(var brand in Model)
-        {
-            <tr>
-                <td>@Html.DisplayFor(m=>brand.Name)</td>
-            </tr>
-        }
+            @foreach(var brand in Model)
+            {
+                <tr>
+                    <td>@Html.DisplayFor(m=>brand.Name)</td>
+                </tr>
+            }
         </tbody>
     </table>
