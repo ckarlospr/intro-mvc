@@ -4,10 +4,12 @@ namespace IntroASP.Models.ViewModels
 {
     public class BeerViewModel
     {
-        [Display(Name = "Beer name")]
-        public string Name { get; set; }
+        [Required]
+        [Display(Name = "Nombre")]
+        public string name { get; set; }
 
-        [Display(Name = "Brand name")]
-        public string BrandId { get; set; }
+        [Required]
+        [Display(Name = "Marca")]
+        public int brandID { get; set; }
     }
 }

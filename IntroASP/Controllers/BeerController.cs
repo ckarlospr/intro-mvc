@@ -20,7 +20,14 @@ namespace IntroASP.Controllers
         }
         public IActionResult Create()
         {
-            ViewData["Brands"] = new SelectList(_context.Brands, "BrandID", "Name");
+            ViewData["Brands"] = new SelectList(_context.Brands, "brandID", "name");
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult Create(int a)
+        {
+            ViewData["Brands"] = new SelectList(_context.Brands, "brandID", "name");
             return View();
         }
     }

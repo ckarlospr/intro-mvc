@@ -16,8 +16,8 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\ckarlos\OneDrive\Documentos\ckarlos\curses\C#\IntroASP\IntroASP
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/ckarlos/OneDrive/Documentos/ckarlos/curses/C\#/IntroASP/IntroASP/Views/Beer/create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmVlclxjcmVhdGUuY3NodG1s
+[C:/Users/ckarlos/OneDrive/Documentos/ckarlos/curses/C\#/IntroASP/IntroASP/Views/Beer/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmVlclxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/ckarlos/OneDrive/Documentos/ckarlos/curses/C\#/IntroASP/IntroASP/Views/Beer/Index.cshtml]
