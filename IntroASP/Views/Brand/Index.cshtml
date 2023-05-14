@@ -1,1 +1,19 @@
-﻿hi
+﻿@model List<Brand>
+
+    <h1>Brands</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+            </tr>
+        </thead>
+        <tbody>
+        @foreach(var brand in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(m=>brand.Name)</td>
+            </tr>
+        }
+        </tbody>
+    </table>
